@@ -1,4 +1,4 @@
 resource "local_file" "pet" {
-filename = "pets.txt"
+filename = "/root/pets.txt"
 content = "we all love pets!"
 }

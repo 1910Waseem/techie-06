@@ -1,4 +1,4 @@
-resource "local_file" "pet" {
+resource "local_file" "lovepet" {
 filename = "pets.txt"
-content = "we all love pets!"
+content = "we all love pigeons!"
 }
